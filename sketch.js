@@ -1,9 +1,9 @@
-int x;
-int y;
-int radius;
-int nc;
-void setup(){
-  size(400, 400);
+var x;
+var y;
+var radius;
+var nc;
+function setup(){
+  createCanvas(400, 400);
   background(255, 0, 0);
   x=40;
   y=40;
@@ -14,7 +14,7 @@ void setup(){
   circles();
 }
 
-void circles(){
+function circles(){
   while(y<height){
   while(x<width){  
     fill(nc);
